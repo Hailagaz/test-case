@@ -159,8 +159,6 @@ p {
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-
-	background-color: blue;
 }
 .header__logotype {
 	display: flex;
@@ -200,14 +198,38 @@ p {
 	padding-top: 216px;
 	height: 1100px;
 	background-color: aqua;
+	color: #ffffff;
+	background-image: url(src/images/background.png);
+	background-color: #373737;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .hero__explain {
+	max-width: 799px;
+	width: 100%;
 }
 .hero__head {
 }
 .hero__text {
+	max-width: 623px;
+	width: 100%;
 }
 .hero__registration {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 45px 59px;
+	gap: 20px;
+
+	width: 490px;
+	height: 500px;
+
+	background: rgba(13, 43, 109, 0.8);
+	border-radius: 10px;
+}
+.hero__registration h3 {
+	color: #FDA700;
 }
 .hero__field {
 }
@@ -220,8 +242,21 @@ p {
 .hero__load {
 }
 .hero__quantum {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 13px;
+	gap: 16px;
+
+	width: 660px;
+	height: 97px;
+
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
 }
 .hero__image {
+}
+.hero__textqua {
 }
 .hero__button {
 }
