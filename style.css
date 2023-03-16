@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*::after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+	text-decoration: none !important;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a, a:link, 
+a:visited {
+	text-decoration: none !important;
+	color: #ffffff !important;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+button, a {
+	border-radius: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: auto;
+	overflow-x: hidden;
+}
+
+main {
+	margin: 0px auto 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+	width: 100%;
+	max-width: 1210px;
+	padding: 62px 10px 0;
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+	background-color: blue;
+}
+.header__logotype {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 76px;
+}
+.header__link {
+}
+.header__offerta {
+	color: #ffffff;
+}
+.header__account {
+}
+.header__account > a {}
+
+
+.hero {
+}
+.hero__explain {
+}
+.hero__head {
+}
+.hero__text {
+}
+.hero__registration {
+}
+.hero__field {
+}
+.hero__field-input {
+}
+.hero__submit {
+}
+.hero__label {
+}
+.hero__load {
+}
+.hero__quantum {
+}
+.hero__image {
+}
+.hero__button {
+}
+.team {
+}
+.team__container {
+}
+.team__member {
+}
+.team__info {
+}
+.team__name {
+}
+.team__cost {
+}
+.team__balance {
+}
+.problem {
+}
+.problem__container {
+}
+.problem__content {
+}
+.problem__part {
+}
+.problem__head {
+}
+.problem__text {
+}
+.problem__link {
+}
+
+.solution {
+}
+.solution__head {
+}
+.solution__text {
+}
+
+.start {
+}
+.start__head {
+}
+.start__content {
+}
+.start__piece {
+}
+.start__flag {
+}
+.start__headline {
+}
