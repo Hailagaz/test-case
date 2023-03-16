@@ -404,7 +404,8 @@ p {
 	margin-top: 68px;
 }
 .problem__content {
-	margin-top: 44px;
+	margin: 44px 0;
+
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -454,24 +455,73 @@ p {
 /* //////////////////////////////////// */
 
 .solution {
+	margin: 75px auto 0;
+	width: 100%;
+	max-width: 748px;
+	padding: 0 10px;
 }
 .solution__head {
+	text-align: center;
+	margin-bottom: 30px;
 }
 .solution__text {
 }
 /* //////////////////////////////////// */
 
 .start {
+	margin: 75px auto 0;
+	width: 100%;
+	max-width: 1230px;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .start__head {
+	text-align: center;
 }
 .start__content {
+	margin-top: 44px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 .start__piece {
+	background-color: #f3f3f3;
+	box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.25);
+	width: 723px;
+	height: 150px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
 }
 .start__flag {
+	position: absolute;
+	top: 0;
+	left: 24px;
+}
+.start__flag:nth-child(even) {
+	right: 24px;
+	left: 0;
 }
 .start__headline {
+	color: #fda700;
+}
+.start__text {
+	margin-top: 10px;
+	max-width: 391px;
+	width: 100%;
+	text-align: center;
 }
 
 @media screen and (max-width: 1225px) {
