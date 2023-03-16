@@ -52,7 +52,8 @@ button::-moz-focus-inner {
 	padding: 0;
 	border: 0;
 }
-a, a:link, 
+a,
+a:link,
 a:visited {
 	text-decoration: none !important;
 	color: #ffffff !important;
@@ -77,19 +78,11 @@ h6 {
 	font-weight: 400;
 }
 
-button, a {
+button,
+a {
 	border-radius: 0 !important;
 }
-
-
-
-
-
-
-
-
-
-
+/* //////////////////////////////////// */
 
 html,
 body {
@@ -97,7 +90,7 @@ body {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	margin: auto;
@@ -107,25 +100,58 @@ body {
 main {
 	margin: 0px auto 0px auto;
 }
+/* //////////////////////////////////// */
+h1 {
+	font-family: "Orchidea Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	/* color: #ffffff; */
+}
+h1 > span {
+	color: #fda700;
+}
 
+h2 {
+	font-family: "Orchidea Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 61px;
+	text-transform: uppercase;
 
+	color: #373737;
+}
 
+h3 {
+	font-family: "Orchidea Pro", "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
 
-
-
-
-
-
-
-
-
-
-
+p {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+}
+/* //////////////////////////////////// */
 
 .header {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 62px;
+
 	width: 100%;
-	max-width: 1210px;
-	padding: 62px 10px 0;
+	max-width: 1230px;
+	padding: 0 10px;
 	margin: 0 auto;
 
 	display: flex;
@@ -133,7 +159,6 @@ main {
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-
 
 	background-color: blue;
 }
@@ -143,19 +168,38 @@ main {
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 76px;
+	gap: 5vw;
 }
 .header__link {
 }
 .header__offerta {
 	color: #ffffff;
+	max-width: 213px;
 }
 .header__account {
+	width: 220px;
+	height: 50px;
+	border: 1px solid #fda700;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.header__account > a {}
-
+.header__account > a {
+	color: #fda700 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: inherit;
+	height: inherit;
+}
+/* //////////////////////////////////// */
 
 .hero {
+	padding-top: 216px;
+	height: 1100px;
+	background-color: aqua;
 }
 .hero__explain {
 }
@@ -181,6 +225,8 @@ main {
 }
 .hero__button {
 }
+/* //////////////////////////////////// */
+
 .team {
 }
 .team__container {
@@ -195,6 +241,8 @@ main {
 }
 .team__balance {
 }
+/* //////////////////////////////////// */
+
 .problem {
 }
 .problem__container {
@@ -209,6 +257,7 @@ main {
 }
 .problem__link {
 }
+/* //////////////////////////////////// */
 
 .solution {
 }
@@ -216,6 +265,7 @@ main {
 }
 .solution__text {
 }
+/* //////////////////////////////////// */
 
 .start {
 }
