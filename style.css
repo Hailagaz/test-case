@@ -333,6 +333,13 @@ p {
 	max-width: 400px;
 	width: 100%;
 }
+.hero__field input {
+	width: inherit;
+}
+.iti {
+	width: inherit;
+}
+
 .hero__field-input {
 	background-color: #0d2b6d;
 	color: #ffffff;
