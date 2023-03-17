@@ -452,6 +452,9 @@ p {
 	transform: translate(-50%, -50%);
 	top: 100%;
 }
+.problem__link:active {
+	transform: rotate(180deg) translateX(45px) translateY(45px);
+}
 /* //////////////////////////////////// */
 
 .solution {
