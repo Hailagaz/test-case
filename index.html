@@ -15,6 +15,11 @@
 
 	<link rel="stylesheet" href="style.css">
 
+	<!--  -->
+	<!-- <link rel="stylesheet" href="src/styles/intlTelInput.css"> -->
+	<!--  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </head>
 
 <body>
@@ -63,7 +68,7 @@
 						<img src="src/images/play.png" alt="Play video">
 					</a>
 					<div class="hero__registration">
-						<form action="#">
+						<form id="login" onsubmit="process(event)">
 							<h3>Registrazione</h3>
 							<div class="hero__field">
 								<input type="text" name="name" placeholder="Nome" class="hero__field-input" required="">
@@ -75,13 +80,16 @@
 								<input type="email" name="email" placeholder="E-mail" class="hero__field-input" required="">
 							</div>
 							<div class="hero__field">
-								<input type="tel" name="phone" placeholder="Phone" class="hero__field-input">
+								<input id="phone" type="tel" name="phone" placeholder="" class="hero__field-input" >
 							</div>
 							<div class="hero__submit">
 								<label for="button-submit" class="hero__label" style="cursor: pointer">Registrati</label>
 								<input type="submit" value="Submit" style="cursor: pointer" class="hero__load"
 									id="button-submit">
 							</div>
+
+							<div class="alert alert-info" style="display: none;"></div>
+
 						</form>
 					</div>
 				</div>
@@ -236,7 +244,8 @@
 			</div>
 		</section>
 
-
+		<!-- <script src="src/js/utils.js"></script>
+		<script src="src/js/intlTelInput.min.js"></script> -->
 
 		<script src="script.js"></script>
 </body>
