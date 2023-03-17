@@ -223,7 +223,7 @@ p {
 
 	position: relative;
 }
-.hero__frame {
+.hero__frame1 {
 }
 .hero__explain {
 	max-width: 699px;
@@ -279,6 +279,18 @@ p {
 	font-family: "Orchidea Pro";
 	font-size: 30px;
 	line-height: 30px;
+}
+.hero__frame2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hero__play {
+	width: 125px;
+	height: 125px;
+	cursor: pointer;
+	margin-bottom: 18px;
 }
 
 .hero__registration {
