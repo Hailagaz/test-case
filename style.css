@@ -118,9 +118,6 @@ h1 {
 	text-transform: uppercase;
 	/* color: #ffffff; */
 }
-h1 > span {
-	color: #fda700;
-}
 
 h2 {
 	font-family: "Orchidea Pro";
@@ -449,12 +446,10 @@ p {
 .problem__link {
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%) rotate(180deg);;
 	top: 100%;
 }
-.problem__link:active {
-	transform: rotate(180deg) translateX(45px) translateY(45px);
-}
+
 /* //////////////////////////////////// */
 
 .solution {
@@ -526,6 +521,17 @@ p {
 	width: 100%;
 	text-align: center;
 }
+/* ///////////////////////////////////////// */
+.change {
+	transform: rotate(-180deg);
+}
 
+.hided {
+	display: none;
+}
+.orange {
+	color: #fda700;
+}
+/* ///////////////////////////////////////// */
 @media screen and (max-width: 1225px) {
 }
