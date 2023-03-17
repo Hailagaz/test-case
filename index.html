@@ -20,6 +20,10 @@
 	<!--  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -64,9 +68,15 @@
 					</div>
 				</div>
 				<div class="hero__frame2">
-					<a href="#" class="hero__play" id="video">
+
+					<!-- <button href="#" class="hero__play" id="video">
 						<img src="src/images/play.png" alt="Play video">
-					</a>
+					</button> -->
+					<button class="btn video" data-video="https://www.youtube.com/embed/hz7aohbc3i8" data-toggle="modal"
+						data-target="#videoModal">
+						<img src="src/images/play.png" alt="Play video">
+					</button>
+
 					<div class="hero__registration">
 						<form id="login" onsubmit="process(event)">
 							<h3>Registrazione</h3>
@@ -80,16 +90,14 @@
 								<input type="email" name="email" placeholder="E-mail" class="hero__field-input" required="">
 							</div>
 							<div class="hero__field">
-								<input id="phone" type="tel" name="phone" placeholder="" class="hero__field-input" >
+								<input id="phone" type="tel" name="phone" placeholder="" class="hero__field-input">
 							</div>
 							<div class="hero__submit">
 								<label for="button-submit" class="hero__label" style="cursor: pointer">Registrati</label>
 								<input type="submit" value="Submit" style="cursor: pointer" class="hero__load"
 									id="button-submit">
 							</div>
-
 							<div class="alert alert-info" style="display: none;"></div>
-
 						</form>
 					</div>
 				</div>
@@ -244,8 +252,22 @@
 			</div>
 		</section>
 
-		<!-- <script src="src/js/utils.js"></script>
-		<script src="src/js/intlTelInput.min.js"></script> -->
+
+
+		<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<iframe width="100%" height="500px" src="" frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<script src="script.js"></script>
 </body>
