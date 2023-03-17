@@ -90,7 +90,6 @@ a {
 	font-weight: 500;
 	font-style: normal;
 }
-/* //////////////////////////////////// */
 
 html,
 body {
@@ -108,7 +107,7 @@ body {
 main {
 	margin: 0px auto 0px auto;
 }
-/* //////////////////////////////////// */
+
 h1 {
 	font-family: "Orchidea Pro" !important;
 	font-style: normal !important;
@@ -116,7 +115,6 @@ h1 {
 	font-size: 50px !important;
 	line-height: 50px !important;
 	text-transform: uppercase !important;
-	/* color: #ffffff; */
 }
 
 h2 {
@@ -126,7 +124,6 @@ h2 {
 	font-size: 60px !important;
 	line-height: 61px !important;
 	text-transform: uppercase;
-
 	color: #373737;
 }
 
@@ -146,19 +143,16 @@ p {
 	font-size: 20px;
 	line-height: 130%;
 }
-/* //////////////////////////////////// */
 
 .header {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	top: 62px;
-
 	width: 100%;
 	max-width: 1230px;
 	padding: 0 10px;
 	margin: 0 auto;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -173,8 +167,7 @@ p {
 	flex-wrap: wrap;
 	gap: 5vw;
 }
-.header__link {
-}
+
 .header__offerta {
 	color: #ffffff;
 	max-width: 213px;
@@ -197,7 +190,6 @@ p {
 	width: inherit;
 	height: inherit;
 }
-/* //////////////////////////////////// */
 
 .hero {
 	padding-top: 216px;
@@ -214,13 +206,11 @@ p {
 	max-width: 1230px;
 	padding: 0 10px;
 	margin: 0 auto;
-
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: flex-end;
-
 	position: relative;
 }
 .hero__frame1 {
@@ -250,10 +240,8 @@ p {
 	align-items: center;
 	padding: 12px 13px;
 	gap: 16px;
-
 	width: 660px;
 	height: 97px;
-
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 10px;
 }
@@ -262,8 +250,6 @@ p {
 	color: #fda700 !important;
 }
 
-.hero__image {
-}
 .hero__textqua {
 	width: 100%;
 	max-width: 379px;
@@ -276,10 +262,8 @@ p {
 	width: 100% !important;
 	max-width: 150px !important;
 	height: 54px;
-
 	background: #0d2b6d;
 	border-radius: 10px !important;
-
 	font-family: "Orchidea Pro";
 	font-size: 30px;
 	line-height: 30px;
@@ -307,13 +291,10 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	gap: 20px;
-
 	width: 100%;
 	max-width: 490px;
 	height: 500px;
-
 	background: rgba(13, 43, 109, 0.8);
 	border-radius: 10px;
 }
@@ -322,7 +303,6 @@ p {
 	flex-direction: column;
 	align-items: center;
 	gap: 15px;
-
 	max-width: inherit;
 	width: 100%;
 }
@@ -345,7 +325,6 @@ p {
 .hero__field-input {
 	background-color: #0d2b6d;
 	color: #ffffff;
-	/* width: 400px; */
 	height: 57px;
 	padding: 0 20px;
 }
@@ -382,7 +361,6 @@ p {
 .hero__load {
 	display: none;
 }
-/* //////////////////////////////////// */
 
 .team {
 	background-color: #0d2b6d;
@@ -394,7 +372,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-
 	gap: 55px;
 }
 .team__member {
@@ -406,16 +383,9 @@ p {
 .team__member img {
 	width: 110px;
 }
-.team__info {
-}
-.team__name {
-}
-.team__cost {
-}
 .team__balance {
 	color: #fda700;
 }
-/* //////////////////////////////////// */
 
 .problem {
 	margin-top: 125px;
@@ -431,11 +401,9 @@ p {
 	width: 100%;
 	min-height: 612px;
 	margin: 0 20px;
-
 	background-color: #f3f3f3;
 	box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
 	border-radius: 10px;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -445,7 +413,6 @@ p {
 }
 .problem__content {
 	margin: 44px 0;
-
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -458,7 +425,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-
 	width: 100%;
 	max-width: 289px;
 }
@@ -497,8 +463,6 @@ p {
 	background: none !important;
 }
 
-/* //////////////////////////////////// */
-
 .solution {
 	margin: 75px auto 0;
 	width: 100%;
@@ -510,9 +474,6 @@ p {
 	margin-bottom: 30px;
 	color: #373737;
 }
-.solution__text {
-}
-/* //////////////////////////////////// */
 
 .start {
 	margin: 75px auto 0;
@@ -546,12 +507,10 @@ p {
 	width: 100%;
 	max-width: 723px;
 	height: 150px;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 	position: relative;
 }
 .start__piece:nth-child(odd) img {
@@ -574,7 +533,7 @@ p {
 	width: 100%;
 	text-align: center;
 }
-/* ///////////////////////////////////////// */
+
 .change {
 	transform: rotate(-180deg);
 }
@@ -585,7 +544,10 @@ p {
 .orange {
 	color: #fda700;
 }
-/* ///////////////////////////////////////// */
+.cursor {
+	cursor: pointer;
+}
+
 @media screen and (max-width: 1225px) {
 	.hero {
 		padding-top: 150px;
@@ -611,9 +573,6 @@ p {
 		position: absolute;
 		bottom: -125px;
 		justify-content: space-between;
-	}
-	.hero__textqua {
-		/* max-width: 210px; */
 	}
 	.hero__frame2 {
 		margin-top: 40px;
@@ -650,7 +609,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
 	h2 {
 		font-size: 50px !important;
 		line-height: 50px !important;
@@ -687,11 +646,6 @@ p {
 		line-height: 15px !important;
 	}
 }
-/* ///////////////////////////////////////// */
-
-#phone,
-.btn {
-}
 
 .btn {
 	color: #ffffff;
@@ -703,12 +657,6 @@ p {
 	padding-left: 12px;
 	padding-right: 12px;
 }
-
-/* .btn:focus,
-.btn:hover {
-	background-color: #3276b1;
-	border-color: #285e8e;
-} */
 
 .btn:active {
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
@@ -740,8 +688,6 @@ p {
 .iti__dial-code {
 	color: #fda700 !important;
 }
-
-/* ///////////////////////////////////////// */
 
 .modal-dialog {
 	margin-top: 100px !important;

@@ -9,7 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
 		section2.classList.toggle("hided");
 	});
 
+	if (window.screen.width <= 1225) {
+		const hider2 = document.getElementById('team');
+		const member1 = document.getElementById('member1');
+		const member2 = document.getElementById('member2');
+		const member3 = document.getElementById('member3');
+		hider2.classList.add("cursor");
+		member2.classList.add("hided");
+		member3.classList.add("hided");
 
+		hider2.addEventListener('click', function () {
+			member2.classList.toggle("hided");
+			member3.classList.toggle("hided");
+		});
+	}
+	
 
 
 
