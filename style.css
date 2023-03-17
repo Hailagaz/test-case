@@ -110,32 +110,32 @@ main {
 }
 /* //////////////////////////////////// */
 h1 {
-	font-family: "Orchidea Pro";
-	font-style: normal;
-	font-weight: 500;
-	font-size: 50px;
-	line-height: 50px;
-	text-transform: uppercase;
+	font-family: "Orchidea Pro" !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 50px !important;
+	line-height: 50px !important;
+	text-transform: uppercase !important;
 	/* color: #ffffff; */
 }
 
 h2 {
-	font-family: "Orchidea Pro";
-	font-style: normal;
-	font-weight: 500;
-	font-size: 60px;
-	line-height: 61px;
+	font-family: "Orchidea Pro" !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 60px !important;
+	line-height: 61px !important;
 	text-transform: uppercase;
 
 	color: #373737;
 }
 
 h3 {
-	font-family: "Orchidea Pro";
-	font-style: normal;
-	font-weight: 500;
-	font-size: 30px;
-	line-height: 30px;
+	font-family: "Orchidea Pro" !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 30px !important;
+	line-height: 30px !important;
 	text-transform: uppercase;
 }
 
@@ -273,8 +273,8 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	width: 150px;
+	width: 100% !important;
+	max-width: 150px !important;
 	height: 54px;
 
 	background: #0d2b6d;
@@ -291,6 +291,7 @@ p {
 	align-items: center;
 	max-width: 490px;
 	width: 100%;
+	gap: 20px;
 }
 .hero__frame2 button {
 	background: none;
@@ -328,6 +329,7 @@ p {
 .hero__registration h3 {
 	color: #fda700;
 	margin-bottom: 5px;
+	margin-top: 30px;
 }
 .hero__field {
 	max-width: 400px;
@@ -421,6 +423,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	color: #373737;
 }
 .problem__container {
 	position: relative;
@@ -479,6 +482,7 @@ p {
 	padding: 11px 40px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	margin: 1px;
+	text-align: center;
 }
 .problem__text {
 	margin-top: 20px;
@@ -504,6 +508,7 @@ p {
 .solution__head {
 	text-align: center;
 	margin-bottom: 30px;
+	color: #373737;
 }
 .solution__text {
 }
@@ -519,6 +524,7 @@ p {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	color: #373737;
 }
 .start__head {
 	text-align: center;
@@ -600,15 +606,25 @@ p {
 	}
 	.hero__quantum {
 		margin-top: 40px;
-		width: auto;
+		width: 100%;
+		max-width: 730px;
 		position: absolute;
 		bottom: -125px;
+		justify-content: space-between;
 	}
 	.hero__textqua {
-		max-width: 210px;
+		/* max-width: 210px; */
 	}
 	.hero__frame2 {
 		margin-top: 40px;
+		max-width: 730px;
+	}
+	.hero__registration {
+		max-width: inherit;
+		padding: 10px;
+	}
+	.hero__field {
+		max-width: 590px;
 	}
 	.team__container {
 		flex-direction: column;
@@ -635,6 +651,10 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+	h2 {
+		font-size: 50px !important;
+		line-height: 50px !important;
+	}
 	.hero {
 		background-image: url(src/images/background2.png);
 	}
