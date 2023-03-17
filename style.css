@@ -224,6 +224,10 @@ p {
 	position: relative;
 }
 .hero__frame1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 .hero__explain {
 	max-width: 699px;
@@ -378,6 +382,9 @@ p {
 	align-items: center;
 	gap: 20px;
 }
+.team__member img {
+	width: 110px;
+}
 .team__info {
 }
 .team__name {
@@ -503,11 +510,15 @@ p {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
+	width: 100%;
+	max-width: 723px;
 }
 .start__piece {
 	background-color: #f3f3f3;
 	box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.25);
-	width: 723px;
+	/* width: 723px; */
+	width: 100%;
+	max-width: 723px;
 	height: 150px;
 
 	display: flex;
@@ -518,13 +529,15 @@ p {
 
 	position: relative;
 }
-.start__flag {
+.start__piece:nth-child(odd) img {
 	position: absolute;
 	top: 0;
 	left: 24px;
 }
 .start__piece:nth-child(even) img {
-	left: 629px;
+	position: absolute;
+	top: 0;
+	right: 24px;
 }
 
 .start__headline {
@@ -549,6 +562,55 @@ p {
 }
 /* ///////////////////////////////////////// */
 @media screen and (max-width: 1225px) {
+	.hero {
+		padding-top: 125px;
+		padding-bottom: 125px;
+		height: auto;
+	}
+	.hero__explain {
+		max-width: 1000px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.hero__text {
+		max-width: inherit;
+	}
+	.hero__quantum {
+		margin-top: 40px;
+		width: auto;
+	}
+	.hero__textqua {
+		max-width: 279px;
+	}
+	.hero__frame2 {
+		margin-top: 40px;
+	}
+	.team__container {
+		flex-direction: column;
+	}
+	.problem__content {
+		flex-direction: column;
+	}
+	.problem__part {
+		max-width: 718px;
+	}
+	.problem__exp {
+		max-width: inherit;
+	}
+	.problem__head {
+		max-width: 688px;
+		text-align: center;
+	}
+	.problem__text {
+		text-align: center;
+	}
+	.solution__text {
+		text-align: center;
+	}
+	.start__piece {
+		/* width: 100%;
+		max-width: 723px; */
+	}
 }
 
 /* ///////////////////////////////////////// */
