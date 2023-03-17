@@ -665,6 +665,27 @@ p {
 		gap: 15px;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.header {
+		top: 110px;
+	}
+	.hero {
+		padding-top: 220px;
+	}
+	.hero__explain h1 {
+		font-size: 35px !important;
+		line-height: 35px !important;
+	}
+	.hero__explain p {
+		font-size: 25px !important;
+		line-height: 25px !important;
+	}
+	.hero__quantum p {
+		font-size: 15px !important;
+		line-height: 15px !important;
+	}
+}
 /* ///////////////////////////////////////// */
 
 #phone,
