@@ -401,7 +401,7 @@ p {
 	width: 1380px;
 	min-height: 612px;
 
-	background: #f3f3f3;
+	background-color: #f3f3f3;
 	box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
 	border-radius: 10px;
 
@@ -460,6 +460,9 @@ p {
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(180deg);
 	top: 100%;
+}
+#hider {
+	background: none !important;
 }
 
 /* //////////////////////////////////// */
@@ -520,10 +523,10 @@ p {
 	top: 0;
 	left: 24px;
 }
-.start__flag:nth-child(even) {
-	right: 24px;
-	left: 0;
+.start__piece:nth-child(even) img {
+	left: 629px;
 }
+
 .start__headline {
 	color: #fda700;
 }
@@ -552,10 +555,6 @@ p {
 
 #phone,
 .btn {
-	padding-top: 6px;
-	padding-bottom: 6px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
 }
 
 .btn {
