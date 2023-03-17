@@ -405,8 +405,10 @@ p {
 }
 .problem__container {
 	position: relative;
-	width: 1380px;
+	max-width: 1380px;
+	width: 100%;
 	min-height: 612px;
+	margin: 0 20px;
 
 	background-color: #f3f3f3;
 	box-shadow: 4px 4px 4px rgba(83, 83, 83, 0.25);
@@ -516,7 +518,6 @@ p {
 .start__piece {
 	background-color: #f3f3f3;
 	box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.25);
-	/* width: 723px; */
 	width: 100%;
 	max-width: 723px;
 	height: 150px;
@@ -563,14 +564,18 @@ p {
 /* ///////////////////////////////////////// */
 @media screen and (max-width: 1225px) {
 	.hero {
-		padding-top: 125px;
-		padding-bottom: 125px;
+		padding-top: 150px;
+		padding-bottom: 150px;
 		height: auto;
+	}
+	.hero__container {
+		position: relative;
 	}
 	.hero__explain {
 		max-width: 1000px;
 		text-align: center;
 		margin-bottom: 20px;
+		padding: 0 10px;
 	}
 	.hero__text {
 		max-width: inherit;
@@ -578,9 +583,11 @@ p {
 	.hero__quantum {
 		margin-top: 40px;
 		width: auto;
+		position: absolute;
+		bottom: -125px;
 	}
 	.hero__textqua {
-		max-width: 279px;
+		max-width: 210px;
 	}
 	.hero__frame2 {
 		margin-top: 40px;
@@ -612,7 +619,12 @@ p {
 		max-width: 723px; */
 	}
 }
-
+@media screen and (max-width: 717px) {
+	.header {
+		flex-direction: column;
+		gap: 15px;
+	}
+}
 /* ///////////////////////////////////////// */
 
 #phone,
