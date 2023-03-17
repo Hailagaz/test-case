@@ -18,9 +18,6 @@
 </head>
 
 <body>
-	<!-- <video autoplay="false" muted loop id="video">
-		<source src="src/video/castle.mp4" type="video/mp4">
-	</video> -->
 	<header class="header">
 		<div class="header__logotype">
 			<a data-goto=".header" href="#header" class="header__link">
@@ -62,9 +59,9 @@
 					</div>
 				</div>
 				<div class="hero__frame2">
-					<button id="play" class="hero__play">
-						<img src="src/images/play.png" alt="">
-					</button>
+					<a href="#" class="hero__play" id="video">
+						<img src="src/images/play.png" alt="Play video">
+					</a>
 					<div class="hero__registration">
 						<form action="#">
 							<h3>Registrazione</h3>
@@ -82,12 +79,13 @@
 							</div>
 							<div class="hero__submit">
 								<label for="button-submit" class="hero__label" style="cursor: pointer">Registrati</label>
-								<input type="submit" value="Submit" style="cursor: pointer" class="hero__load" id="button-submit">
+								<input type="submit" value="Submit" style="cursor: pointer" class="hero__load"
+									id="button-submit">
 							</div>
 						</form>
 					</div>
 				</div>
-				
+
 			</div>
 		</section>
 		<section class="team">
@@ -237,6 +235,8 @@
 				</div>
 			</div>
 		</section>
+
+
 
 		<script src="script.js"></script>
 </body>

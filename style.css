@@ -458,7 +458,7 @@ p {
 .problem__link {
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, -50%) rotate(180deg);;
+	transform: translate(-50%, -50%) rotate(180deg);
 	top: 100%;
 }
 
@@ -547,3 +547,5 @@ p {
 /* ///////////////////////////////////////// */
 @media screen and (max-width: 1225px) {
 }
+
+/* ///////////////////////////////////////// */
